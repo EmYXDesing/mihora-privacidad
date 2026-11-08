@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mihora · Política de privacidad</title>
+<meta name="description" content="Política de privacidad de Mihora, la app para controlar tus horas, horas extra y dinero si trabajas por turnos.">
+<style>
+  :root {
+    --bg: #f6f1e7;
+    --card: #fffdf8;
+    --ink: #1f1b16;
+    --muted: #5d554b;
+    --accent: #b3261e;
+    --line: #e2d9c8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17140f;
+      --card: #211d17;
+      --ink: #f1ebe0;
+      --muted: #b9afa1;
+      --accent: #ff8a7a;
+      --line: #3a332a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
+  header { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+  .logo {
+    width: 44px; height: 44px; border-radius: 12px; background: var(--accent); color: #fff;
+    display: grid; place-items: center; font-weight: 800; font-size: 22px; flex: none;
+  }
+  .brand { font-weight: 800; font-size: 20px; }
+  nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 20px; }
+  nav a {
+    color: var(--ink); text-decoration: none; border: 1px solid var(--line); background: var(--card);
+    padding: 6px 12px; border-radius: 999px; font-size: 15px;
+  }
+  nav a:hover, nav a:focus-visible { border-color: var(--accent); }
+  section.lang {
+    display: none; background: var(--card); border: 1px solid var(--line); border-radius: 16px;
+    padding: 8px 22px 22px;
+  }
+  section.lang:target { display: block; }
+  main:not(:has(section.lang:target)) #es { display: block; }
+  h1 { font-size: 26px; line-height: 1.25; margin: 18px 0 4px; }
+  h2 { font-size: 19px; margin: 26px 0 6px; }
+  p, li { color: var(--ink); }
+  .date { color: var(--muted); margin-top: 0; }
+  .summary { border-left: 4px solid var(--accent); padding: 4px 0 4px 14px; margin: 18px 0; }
+  a { color: var(--accent); overflow-wrap: anywhere; }
+  ul { padding-left: 22px; }
+  footer { color: var(--muted); font-size: 14px; margin-top: 24px; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="logo" aria-hidden="true">M</div>
+  <div class="brand">Mihora</div>
+</header>
+
+<nav aria-label="Idioma · Language">
+  <a href="#es" hreflang="es">Español</a>
+  <a href="#en" hreflang="en">English</a>
+  <a href="#fr" hreflang="fr">Français</a>
+  <a href="#pt" hreflang="pt">Português</a>
+  <a href="#it" hreflang="it">Italiano</a>
+  <a href="#de" hreflang="de">Deutsch</a>
+</nav>
+
+<main>
+
+<!-- ===================== ES ===================== -->
+<section class="lang" id="es" lang="es">
+<h1>Política de privacidad de Mihora</h1>
+<p class="date">Última actualización: 8 de noviembre de 2026</p>
+
+<p class="summary"><strong>En resumen:</strong> Mihora no recoge tus datos. Todo lo que apuntas se guarda solo en tu móvil. No hay cuentas, ni servidores, ni publicidad, ni estadísticas de uso, y la app no envía tus datos a nadie: tampoco al desarrollador.</p>
+
+<h2>Quién es el responsable</h2>
+<p>Mihora es una app desarrollada por EmYXDesing. Para cualquier pregunta sobre esta política o sobre tus datos, consulta el apartado «Contacto».</p>
+
+<h2>Qué datos guardas en la app</h2>
+<p>Lo que tú apuntas para llevar tus horas y tu dinero: tus trabajos y su horario, los turnos con sus pausas, las horas extra, las vacaciones, bajas y días libres, los festivos, el sueldo y las tarifas, las propinas, las nóminas, tus notas y los ajustes de la app.</p>
+<p>Estos datos se guardan únicamente en la memoria de tu móvil. Mihora funciona sin conexión y no los envía a ningún servidor; el desarrollador no tiene acceso a ellos.</p>
+
+<h2>Ubicación (opcional)</h2>
+<p>Si activas el aviso al llegar a tu trabajo (función Premium), Mihora guarda el lugar de ese trabajo que tú fijas (latitud, longitud y un radio) y pide permiso para usar la ubicación también con la app cerrada. Android avisa a Mihora cuando entras o sales de esa zona para recordarte fichar.</p>
+<ul>
+  <li>La ubicación se usa solo en tu móvil y solo para ese aviso.</li>
+  <li>Mihora no guarda tu recorrido ni un historial de dónde has estado, y no envía tu ubicación a nadie.</li>
+  <li>Puedes desactivar el aviso en la ficha del trabajo o retirar el permiso en los ajustes de Android cuando quieras.</li>
+</ul>
+
+<h2>Notificaciones</h2>
+<p>Si lo permites, Mihora te muestra notificaciones en el propio móvil: el turno en curso y los recordatorios para fichar. Se generan en el móvil, sin pasar por ningún servidor.</p>
+
+<h2>Copias de seguridad y exportación</h2>
+<ul>
+  <li><strong>Copia de Mihora:</strong> puedes guardar una copia de tus datos en un archivo, en el sitio que elijas (por ejemplo, tu nube o tu ordenador), y recuperarla en otro móvil. Con Premium puedes cifrarla con una contraseña que solo tú conoces.</li>
+  <li><strong>Exportar:</strong> puedes exportar tus horas a una hoja de cálculo (CSV) o a PDF y compartirlas con quien quieras.</li>
+  <li><strong>Copia de seguridad de Android:</strong> si la tienes activada en tu móvil, Android puede incluir los datos de Mihora en tu copia de seguridad de Google y pasarlos a un móvil nuevo. Esa copia la gestiona Google según su propia política de privacidad.</li>
+</ul>
+<p>Una vez que guardas o compartes un archivo fuera de Mihora, su tratamiento depende del servicio o de la persona a quien se lo des.</p>
+
+<h2>Compras</h2>
+<p>Mihora Premium se compra a través de Google Play. El pago lo gestiona Google; Mihora no recibe ni guarda tus datos de pago. Google Play solo le indica a la app si tienes Premium activo.</p>
+
+<h2>Terceros</h2>
+<p>Mihora no comparte, vende ni cede tus datos a nadie y no incluye publicidad ni herramientas de análisis o seguimiento.</p>
+
+<h2>Tus datos, tu control</h2>
+<ul>
+  <li>Puedes ver, corregir y borrar tus datos en la propia app en cualquier momento.</li>
+  <li>En Ajustes, «Borrar todos los datos» elimina todo lo que tienes en Mihora. Desinstalar la app también borra sus datos del móvil.</li>
+  <li>Como el desarrollador no tiene tus datos, no puede consultarlos, corregirlos ni borrarlos por ti: los tienes tú.</li>
+</ul>
+
+<h2>Menores</h2>
+<p>Mihora está pensada para personas que trabajan y no está dirigida a niños.</p>
+
+<h2>Cambios en esta política</h2>
+<p>Si esta política cambia, se publicará aquí la nueva versión con su fecha de actualización.</p>
+
+<h2>Contacto</h2>
+<p>Para preguntas sobre esta política o sobre tus datos, abre una consulta en <a href="https://github.com/EmYXDesing/mihora-privacidad/issues">github.com/EmYXDesing/mihora-privacidad/issues</a>.</p>
+</section>
+
+<!-- ===================== EN ===================== -->
+<section class="lang" id="en" lang="en">
+<h1>Mihora Privacy Policy</h1>
+<p class="date">Last updated: 8 November 2026</p>
+
+<p class="summary"><strong>In short:</strong> Mihora does not collect your data. Everything you record is stored only on your phone. There are no accounts, no servers, no ads and no usage analytics, and the app does not send your data to anyone, including the developer.</p>
+
+<h2>Who is responsible</h2>
+<p>Mihora is an app developed by EmYXDesing. For any question about this policy or about your data, see the “Contact” section.</p>
+
+<h2>What data you keep in the app</h2>
+<p>What you record to keep track of your hours and your money: your jobs and their schedules, your shifts and breaks, overtime, holidays, sick leave and days off, public holidays, your pay and rates, tips, payslips, your notes and the app settings.</p>
+<p>This data is stored only on your phone. Mihora works offline and does not send it to any server; the developer has no access to it.</p>
+
+<h2>Location (optional)</h2>
+<p>If you turn on the reminder when you arrive at work (a Premium feature), Mihora stores the place of that job that you set (latitude, longitude and a radius) and asks for permission to use your location while the app is closed. Android tells Mihora when you enter or leave that area so it can remind you to clock in or out.</p>
+<ul>
+  <li>Your location is used only on your phone and only for that reminder.</li>
+  <li>Mihora does not store your route or a history of where you have been, and does not send your location to anyone.</li>
+  <li>You can turn the reminder off in the job’s details or withdraw the permission in Android settings at any time.</li>
+</ul>
+
+<h2>Notifications</h2>
+<p>If you allow it, Mihora shows notifications on your phone: the shift in progress and reminders to clock in. They are created on the phone, without any server.</p>
+
+<h2>Backups and export</h2>
+<ul>
+  <li><strong>Mihora backup:</strong> you can save a copy of your data to a file wherever you choose (for example, your cloud storage or your computer) and restore it on another phone. With Premium you can encrypt it with a password only you know.</li>
+  <li><strong>Export:</strong> you can export your hours to a spreadsheet (CSV) or PDF and share them with whoever you want.</li>
+  <li><strong>Android backup:</strong> if it is turned on on your phone, Android may include Mihora’s data in your Google backup and move it to a new phone. That backup is managed by Google under its own privacy policy.</li>
+</ul>
+<p>Once you save or share a file outside Mihora, how it is handled depends on the service or person you give it to.</p>
+
+<h2>Purchases</h2>
+<p>Mihora Premium is bought through Google Play. Payment is handled by Google; Mihora does not receive or store your payment details. Google Play only tells the app whether you have Premium.</p>
+
+<h2>Third parties</h2>
+<p>Mihora does not share, sell or transfer your data to anyone and contains no ads or analytics or tracking tools.</p>
+
+<h2>Your data, your control</h2>
+<ul>
+  <li>You can view, correct and delete your data in the app at any time.</li>
+  <li>In Settings, “Delete all data” erases everything you have in Mihora. Uninstalling the app also deletes its data from the phone.</li>
+  <li>Because the developer does not hold your data, they cannot view, correct or delete it for you: you have it.</li>
+</ul>
+
+<h2>Children</h2>
+<p>Mihora is meant for working people and is not directed at children.</p>
+
+<h2>Changes to this policy</h2>
+<p>If this policy changes, the new version will be published here with its update date.</p>
+
+<h2>Contact</h2>
+<p>For questions about this policy or your data, open a request at <a href="https://github.com/EmYXDesing/mihora-privacidad/issues">github.com/EmYXDesing/mihora-privacidad/issues</a>.</p>
+</section>
+
+<!-- ===================== FR ===================== -->
+<section class="lang" id="fr" lang="fr">
+<h1>Politique de confidentialité de Mihora</h1>
+<p class="date">Dernière mise à jour : 8 novembre 2026</p>
+
+<p class="summary"><strong>En bref :</strong> Mihora ne collecte pas vos données. Tout ce que vous enregistrez reste uniquement sur votre téléphone. Pas de compte, pas de serveur, pas de publicité ni de statistiques d’utilisation, et l’application n’envoie vos données à personne, pas même au développeur.</p>
+
+<h2>Responsable</h2>
+<p>Mihora est une application développée par EmYXDesing. Pour toute question sur cette politique ou sur vos données, voir la rubrique « Contact ».</p>
+
+<h2>Données que vous gardez dans l’application</h2>
+<p>Ce que vous enregistrez pour suivre vos heures et votre argent : vos emplois et leurs horaires, vos services et leurs pauses, les heures supplémentaires, les congés, arrêts maladie et jours de repos, les jours fériés, votre salaire et vos tarifs, les pourboires, les fiches de paie, vos notes et les réglages de l’application.</p>
+<p>Ces données sont stockées uniquement sur votre téléphone. Mihora fonctionne hors ligne et ne les envoie à aucun serveur ; le développeur n’y a pas accès.</p>
+
+<h2>Position (facultatif)</h2>
+<p>Si vous activez le rappel à l’arrivée au travail (fonction Premium), Mihora enregistre le lieu de cet emploi que vous définissez (latitude, longitude et un rayon) et demande l’autorisation d’utiliser votre position même lorsque l’application est fermée. Android prévient Mihora quand vous entrez dans cette zone ou en sortez, pour vous rappeler de pointer.</p>
+<ul>
+  <li>Votre position est utilisée uniquement sur votre téléphone et uniquement pour ce rappel.</li>
+  <li>Mihora n’enregistre ni votre trajet ni l’historique des lieux où vous êtes allé, et n’envoie votre position à personne.</li>
+  <li>Vous pouvez désactiver le rappel dans la fiche de l’emploi ou retirer l’autorisation dans les réglages d’Android à tout moment.</li>
+</ul>
+
+<h2>Notifications</h2>
+<p>Si vous l’autorisez, Mihora affiche des notifications sur votre téléphone : le service en cours et les rappels pour pointer. Elles sont créées sur le téléphone, sans aucun serveur.</p>
+
+<h2>Sauvegardes et export</h2>
+<ul>
+  <li><strong>Sauvegarde Mihora :</strong> vous pouvez enregistrer une copie de vos données dans un fichier, à l’endroit de votre choix (par exemple votre cloud ou votre ordinateur), et la restaurer sur un autre téléphone. Avec Premium, vous pouvez la chiffrer avec un mot de passe que vous seul connaissez.</li>
+  <li><strong>Export :</strong> vous pouvez exporter vos heures vers un tableur (CSV) ou en PDF et les partager avec qui vous voulez.</li>
+  <li><strong>Sauvegarde Android :</strong> si elle est activée sur votre téléphone, Android peut inclure les données de Mihora dans votre sauvegarde Google et les transférer vers un nouveau téléphone. Cette sauvegarde est gérée par Google selon sa propre politique de confidentialité.</li>
+</ul>
+<p>Dès que vous enregistrez ou partagez un fichier en dehors de Mihora, son traitement dépend du service ou de la personne à qui vous le confiez.</p>
+
+<h2>Achats</h2>
+<p>Mihora Premium s’achète via Google Play. Le paiement est géré par Google ; Mihora ne reçoit ni ne conserve vos données de paiement. Google Play indique seulement à l’application si vous avez Premium.</p>
+
+<h2>Tiers</h2>
+<p>Mihora ne partage, ne vend ni ne cède vos données à personne et ne contient ni publicité ni outil d’analyse ou de suivi.</p>
+
+<h2>Vos données, votre contrôle</h2>
+<ul>
+  <li>Vous pouvez consulter, corriger et supprimer vos données dans l’application à tout moment.</li>
+  <li>Dans Réglages, « Supprimer toutes les données » supprime tout ce que vous avez dans Mihora. Désinstaller l’application efface aussi ses données du téléphone.</li>
+  <li>Comme le développeur ne détient pas vos données, il ne peut ni les consulter, ni les corriger, ni les supprimer à votre place : c’est vous qui les avez.</li>
+</ul>
+
+<h2>Enfants</h2>
+<p>Mihora est destinée aux personnes qui travaillent et ne s’adresse pas aux enfants.</p>
+
+<h2>Modifications</h2>
+<p>Si cette politique change, la nouvelle version sera publiée ici avec sa date de mise à jour.</p>
+
+<h2>Contact</h2>
+<p>Pour toute question sur cette politique ou sur vos données, ouvrez une demande sur <a href="https://github.com/EmYXDesing/mihora-privacidad/issues">github.com/EmYXDesing/mihora-privacidad/issues</a>.</p>
+</section>
+
+<!-- ===================== PT ===================== -->
+<section class="lang" id="pt" lang="pt">
+<h1>Política de privacidade da Mihora</h1>
+<p class="date">Última atualização: 8 de novembro de 2026</p>
+
+<p class="summary"><strong>Em resumo:</strong> a Mihora não recolhe os seus dados. Tudo o que regista fica guardado apenas no seu telemóvel. Não há contas, nem servidores, nem publicidade, nem estatísticas de utilização, e a app não envia os seus dados a ninguém, nem sequer ao programador.</p>
+
+<h2>Responsável</h2>
+<p>A Mihora é uma app desenvolvida por EmYXDesing. Para qualquer questão sobre esta política ou sobre os seus dados, consulte a secção «Contacto».</p>
+
+<h2>Que dados guarda na app</h2>
+<p>O que regista para controlar as suas horas e o seu dinheiro: os seus trabalhos e respetivos horários, os turnos e as pausas, as horas extra, as férias, baixas e folgas, os feriados, o salário e as tarifas, as gorjetas, os recibos de vencimento, as suas notas e as definições da app.</p>
+<p>Estes dados ficam guardados apenas no seu telemóvel. A Mihora funciona sem ligação e não os envia para nenhum servidor; o programador não tem acesso a eles.</p>
+
+<h2>Localização (opcional)</h2>
+<p>Se ativar o aviso ao chegar ao trabalho (função Premium), a Mihora guarda o local desse trabalho que definir (latitude, longitude e um raio) e pede autorização para usar a localização também com a app fechada. O Android avisa a Mihora quando entra ou sai dessa zona, para lhe lembrar de registar o ponto.</p>
+<ul>
+  <li>A localização é usada apenas no seu telemóvel e apenas para esse aviso.</li>
+  <li>A Mihora não guarda o seu percurso nem um histórico dos sítios onde esteve, e não envia a sua localização a ninguém.</li>
+  <li>Pode desativar o aviso na ficha do trabalho ou retirar a autorização nas definições do Android quando quiser.</li>
+</ul>
+
+<h2>Notificações</h2>
+<p>Se permitir, a Mihora mostra notificações no telemóvel: o turno em curso e os lembretes para registar o ponto. São criadas no telemóvel, sem passar por nenhum servidor.</p>
+
+<h2>Cópias de segurança e exportação</h2>
+<ul>
+  <li><strong>Cópia da Mihora:</strong> pode guardar uma cópia dos seus dados num ficheiro, no sítio que escolher (por exemplo, a sua nuvem ou o seu computador), e recuperá-la noutro telemóvel. Com Premium pode cifrá-la com uma palavra-passe que só o utilizador conhece.</li>
+  <li><strong>Exportar:</strong> pode exportar as suas horas para uma folha de cálculo (CSV) ou PDF e partilhá-las com quem quiser.</li>
+  <li><strong>Cópia de segurança do Android:</strong> se estiver ativada no seu telemóvel, o Android pode incluir os dados da Mihora na sua cópia de segurança da Google e passá-los para um telemóvel novo. Essa cópia é gerida pela Google segundo a sua própria política de privacidade.</li>
+</ul>
+<p>Depois de guardar ou partilhar um ficheiro fora da Mihora, o seu tratamento depende do serviço ou da pessoa a quem o entregar.</p>
+
+<h2>Compras</h2>
+<p>A Mihora Premium compra-se através do Google Play. O pagamento é gerido pela Google; a Mihora não recebe nem guarda os seus dados de pagamento. O Google Play apenas indica à app se tem Premium.</p>
+
+<h2>Terceiros</h2>
+<p>A Mihora não partilha, vende nem cede os seus dados a ninguém e não inclui publicidade nem ferramentas de análise ou rastreio.</p>
+
+<h2>Os seus dados, o seu controlo</h2>
+<ul>
+  <li>Pode ver, corrigir e apagar os seus dados na própria app em qualquer momento.</li>
+  <li>Nas Definições, «Apagar todos os dados» elimina tudo o que tem na Mihora. Desinstalar a app também apaga os seus dados do telemóvel.</li>
+  <li>Como o programador não tem os seus dados, não os pode consultar, corrigir nem apagar por si: estão consigo.</li>
+</ul>
+
+<h2>Menores</h2>
+<p>A Mihora destina-se a pessoas que trabalham e não é dirigida a crianças.</p>
+
+<h2>Alterações a esta política</h2>
+<p>Se esta política mudar, a nova versão será publicada aqui com a data de atualização.</p>
+
+<h2>Contacto</h2>
+<p>Para questões sobre esta política ou sobre os seus dados, abra um pedido em <a href="https://github.com/EmYXDesing/mihora-privacidad/issues">github.com/EmYXDesing/mihora-privacidad/issues</a>.</p>
+</section>
+
+<!-- ===================== IT ===================== -->
+<section class="lang" id="it" lang="it">
+<h1>Informativa sulla privacy di Mihora</h1>
+<p class="date">Ultimo aggiornamento: 8 novembre 2026</p>
+
+<p class="summary"><strong>In breve:</strong> Mihora non raccoglie i tuoi dati. Tutto ciò che registri resta solo sul tuo telefono. Non ci sono account, server, pubblicità né statistiche d’uso, e l’app non invia i tuoi dati a nessuno, nemmeno allo sviluppatore.</p>
+
+<h2>Titolare</h2>
+<p>Mihora è un’app sviluppata da EmYXDesing. Per qualsiasi domanda su questa informativa o sui tuoi dati, vedi la sezione «Contatti».</p>
+
+<h2>Quali dati conservi nell’app</h2>
+<p>Ciò che registri per tenere il conto delle tue ore e dei tuoi soldi: i tuoi lavori e i relativi orari, i turni con le pause, gli straordinari, le ferie, le malattie e i giorni liberi, i festivi, lo stipendio e le tariffe, le mance, le buste paga, le tue note e le impostazioni dell’app.</p>
+<p>Questi dati sono salvati solo sul tuo telefono. Mihora funziona offline e non li invia a nessun server; lo sviluppatore non vi ha accesso.</p>
+
+<h2>Posizione (facoltativa)</h2>
+<p>Se attivi l’avviso all’arrivo al lavoro (funzione Premium), Mihora salva il luogo di quel lavoro che imposti tu (latitudine, longitudine e un raggio) e chiede il permesso di usare la posizione anche ad app chiusa. Android avvisa Mihora quando entri o esci da quella zona, per ricordarti di timbrare.</p>
+<ul>
+  <li>La posizione è usata solo sul tuo telefono e solo per quell’avviso.</li>
+  <li>Mihora non salva il tuo percorso né la cronologia dei luoghi in cui sei stato, e non invia la tua posizione a nessuno.</li>
+  <li>Puoi disattivare l’avviso nella scheda del lavoro o revocare il permesso nelle impostazioni di Android in qualsiasi momento.</li>
+</ul>
+
+<h2>Notifiche</h2>
+<p>Se lo consenti, Mihora mostra notifiche sul telefono: il turno in corso e i promemoria per timbrare. Vengono create sul telefono, senza alcun server.</p>
+
+<h2>Backup ed esportazione</h2>
+<ul>
+  <li><strong>Backup di Mihora:</strong> puoi salvare una copia dei tuoi dati in un file, dove preferisci (per esempio nel tuo cloud o sul computer), e ripristinarla su un altro telefono. Con Premium puoi cifrarla con una password che conosci solo tu.</li>
+  <li><strong>Esportazione:</strong> puoi esportare le tue ore in un foglio di calcolo (CSV) o in PDF e condividerle con chi vuoi.</li>
+  <li><strong>Backup di Android:</strong> se è attivo sul tuo telefono, Android può includere i dati di Mihora nel tuo backup di Google e trasferirli su un nuovo telefono. Quel backup è gestito da Google secondo la propria informativa sulla privacy.</li>
+</ul>
+<p>Una volta salvato o condiviso un file fuori da Mihora, il suo trattamento dipende dal servizio o dalla persona a cui lo affidi.</p>
+
+<h2>Acquisti</h2>
+<p>Mihora Premium si acquista tramite Google Play. Il pagamento è gestito da Google; Mihora non riceve né conserva i tuoi dati di pagamento. Google Play comunica all’app solo se hai Premium.</p>
+
+<h2>Terze parti</h2>
+<p>Mihora non condivide, vende né cede i tuoi dati a nessuno e non contiene pubblicità né strumenti di analisi o tracciamento.</p>
+
+<h2>I tuoi dati, il tuo controllo</h2>
+<ul>
+  <li>Puoi vedere, correggere ed eliminare i tuoi dati nell’app in qualsiasi momento.</li>
+  <li>In Impostazioni, «Cancella tutti i dati» cancella tutto ciò che hai in Mihora. Disinstallare l’app elimina anche i suoi dati dal telefono.</li>
+  <li>Poiché lo sviluppatore non possiede i tuoi dati, non può consultarli, correggerli né eliminarli al posto tuo: li hai tu.</li>
+</ul>
+
+<h2>Minori</h2>
+<p>Mihora è pensata per chi lavora e non è rivolta ai bambini.</p>
+
+<h2>Modifiche a questa informativa</h2>
+<p>Se questa informativa cambia, la nuova versione sarà pubblicata qui con la data di aggiornamento.</p>
+
+<h2>Contatti</h2>
+<p>Per domande su questa informativa o sui tuoi dati, apri una richiesta su <a href="https://github.com/EmYXDesing/mihora-privacidad/issues">github.com/EmYXDesing/mihora-privacidad/issues</a>.</p>
+</section>
+
+<!-- ===================== DE ===================== -->
+<section class="lang" id="de" lang="de">
+<h1>Datenschutzerklärung von Mihora</h1>
+<p class="date">Zuletzt aktualisiert: 8. November 2026</p>
+
+<p class="summary"><strong>Kurz gesagt:</strong> Mihora erhebt keine Daten von dir. Alles, was du einträgst, bleibt nur auf deinem Handy. Es gibt keine Konten, keine Server, keine Werbung und keine Nutzungsstatistiken, und die App sendet deine Daten an niemanden – auch nicht an den Entwickler.</p>
+
+<h2>Verantwortlicher</h2>
+<p>Mihora ist eine App von EmYXDesing. Bei Fragen zu dieser Erklärung oder zu deinen Daten siehe den Abschnitt „Kontakt“.</p>
+
+<h2>Welche Daten du in der App speicherst</h2>
+<p>Was du einträgst, um deine Stunden und dein Geld im Blick zu behalten: deine Jobs und ihre Arbeitszeiten, deine Schichten mit Pausen, Überstunden, Urlaub, Krankheitstage und freie Tage, Feiertage, Lohn und Stundensätze, Trinkgeld, Lohnabrechnungen, deine Notizen und die Einstellungen der App.</p>
+<p>Diese Daten werden nur auf deinem Handy gespeichert. Mihora funktioniert offline und sendet sie an keinen Server; der Entwickler hat keinen Zugriff darauf.</p>
+
+<h2>Standort (optional)</h2>
+<p>Wenn du die Erinnerung bei Ankunft am Arbeitsplatz aktivierst (Premium-Funktion), speichert Mihora den Ort dieses Jobs, den du festlegst (Breitengrad, Längengrad und einen Radius), und bittet um die Erlaubnis, den Standort auch bei geschlossener App zu nutzen. Android meldet Mihora, wenn du diesen Bereich betrittst oder verlässt, damit dich die App ans Ein- oder Ausstempeln erinnert.</p>
+<ul>
+  <li>Dein Standort wird nur auf deinem Handy und nur für diese Erinnerung verwendet.</li>
+  <li>Mihora speichert weder deine Wege noch einen Verlauf der Orte, an denen du warst, und sendet deinen Standort an niemanden.</li>
+  <li>Du kannst die Erinnerung jederzeit in den Angaben zum Job ausschalten oder die Berechtigung in den Android-Einstellungen entziehen.</li>
+</ul>
+
+<h2>Benachrichtigungen</h2>
+<p>Wenn du es erlaubst, zeigt Mihora Benachrichtigungen auf deinem Handy an: die laufende Schicht und Erinnerungen zum Einstempeln. Sie entstehen auf dem Handy, ohne Server.</p>
+
+<h2>Sicherungen und Export</h2>
+<ul>
+  <li><strong>Mihora-Sicherung:</strong> Du kannst eine Kopie deiner Daten als Datei an einem Ort deiner Wahl speichern (zum Beispiel in deinem Cloud-Speicher oder auf deinem Computer) und sie auf einem anderen Handy wiederherstellen. Mit Premium kannst du sie mit einem Passwort verschlüsseln, das nur du kennst.</li>
+  <li><strong>Export:</strong> Du kannst deine Stunden als Tabelle (CSV) oder PDF exportieren und mit wem du willst teilen.</li>
+  <li><strong>Android-Sicherung:</strong> Wenn sie auf deinem Handy aktiviert ist, kann Android die Daten von Mihora in deine Google-Sicherung aufnehmen und auf ein neues Handy übertragen. Diese Sicherung verwaltet Google nach seiner eigenen Datenschutzerklärung.</li>
+</ul>
+<p>Sobald du eine Datei außerhalb von Mihora speicherst oder teilst, hängt ihre Verarbeitung von dem Dienst oder der Person ab, der du sie gibst.</p>
+
+<h2>Käufe</h2>
+<p>Mihora Premium wird über Google Play gekauft. Die Zahlung wickelt Google ab; Mihora erhält und speichert keine Zahlungsdaten. Google Play teilt der App nur mit, ob du Premium hast.</p>
+
+<h2>Dritte</h2>
+<p>Mihora gibt deine Daten an niemanden weiter, verkauft sie nicht und enthält weder Werbung noch Analyse- oder Tracking-Tools.</p>
+
+<h2>Deine Daten, deine Kontrolle</h2>
+<ul>
+  <li>Du kannst deine Daten jederzeit in der App ansehen, korrigieren und löschen.</li>
+  <li>In den Einstellungen löscht „Alle Daten löschen“ alles, was du in Mihora hast. Wenn du die App deinstallierst, werden ihre Daten ebenfalls vom Handy gelöscht.</li>
+  <li>Da der Entwickler deine Daten nicht besitzt, kann er sie weder für dich einsehen noch korrigieren oder löschen: Du hast sie.</li>
+</ul>
+
+<h2>Kinder</h2>
+<p>Mihora richtet sich an berufstätige Menschen und nicht an Kinder.</p>
+
+<h2>Änderungen</h2>
+<p>Wenn sich diese Erklärung ändert, wird die neue Fassung hier mit ihrem Aktualisierungsdatum veröffentlicht.</p>
+
+<h2>Kontakt</h2>
+<p>Bei Fragen zu dieser Erklärung oder zu deinen Daten eröffne eine Anfrage unter <a href="https://github.com/EmYXDesing/mihora-privacidad/issues">github.com/EmYXDesing/mihora-privacidad/issues</a>.</p>
+</section>
+
+</main>
+
+<footer>Mihora · EmYXDesing</footer>
+</div>
+<script>
+  // Without a language in the address, open the one of the browser if the page has it (nothing is stored or sent).
+  if (!location.hash) {
+    var lang = (navigator.language || "es").slice(0, 2).toLowerCase();
+    if (["en", "fr", "pt", "it", "de"].indexOf(lang) >= 0) location.replace("#" + lang);
+  }
+</script>
+</body>
+</html>
